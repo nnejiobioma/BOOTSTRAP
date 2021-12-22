@@ -1,15 +1,16 @@
 body{
     font-family: "Montserrat";
+    
 }
 
 #title{
     background-color: #ff4c68;
     color: #fff;
-    
+       
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -17,6 +18,13 @@ font-family: "Montserrat";
 font-size: 4rem;
 line-height: 1.5;
 font-weight: bold;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 2;
+    
 }
 
 h3{
@@ -57,11 +65,19 @@ p{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 35%;
+   
+   
 }
 
 /* Feartures section */
 #features{
     padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+    
+    
 }
 
 .feature-box{
@@ -77,3 +93,92 @@ padding: 5%;
 .icon:hover{
     color: #ff4c68;
 }
+
+
+/* Testimonial section */
+#testimonials {
+    text-align: center;
+    background-color:#ef8172 ;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colum{
+    padding: 3% 2%;
+}
+
+
+/* Call to Action */
+
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;  
+
+}
+
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.social-icon{
+margin: 20px 10px;
+
+}
+
+/* Media quarry Breakpoint */
+@media ( max-width: 1028px){
+#title{
+    text-align: center;
+}
+.title-image{
+    position: static;
+    transform: rotate(0);
+}
+
+}
+
+
+
+
+
